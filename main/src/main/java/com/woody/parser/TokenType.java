@@ -6,9 +6,11 @@ public enum TokenType {
     SLASH,
     PLUS,
     MINUS,
+    EQ,
 
     NUMBER,
     HEX_NUMBER,
+    WORD, // pi, e
 
     LPAREN, // (
     RPAREN, // )
