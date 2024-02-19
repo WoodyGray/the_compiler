@@ -1,20 +1,23 @@
 package com.woody.ast;
 
+import com.woody.lib.NumberValue;
+import com.woody.lib.Value;
+
 public final class NumberExpression implements Expression{
 
-    private final double value;
+    private final Value value;
 
     public NumberExpression(double value) {
-        this.value = value;
+        this.value = new NumberValue(value);
     }
 
     @Override
-    public double eval() {
+    public Value eval() {
         return value;
     }
 
     @Override
     public String toString() {
-        return Double.toString(value);
+        return value.asString();
     }
 }

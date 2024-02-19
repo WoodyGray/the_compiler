@@ -37,6 +37,9 @@ public final class Lexer {
             else if (current == '#'){
                 next();
                 tokenizeHexNumber();
+            }else if (current == '"'){
+                next();
+                tokenizeHexNumber();
             }
             else if (OPERATOR_CHARS.indexOf(current) != -1){
                 tokenizeOperator();
@@ -62,7 +65,11 @@ public final class Lexer {
             buffer.append(current);
             current = next();
         }
-        addToken(TokenType.WORD, buffer.toString());
+        final String toString = buffer.toString();
+        if (toString.equals("print"))
+            addToken(TokenType.PRINT);
+        else
+            addToken(TokenType.WORD, toString);
     }
 
     private void tokenizeNumber() {

@@ -1,5 +1,8 @@
 package com.woody.ast;
 
+import com.woody.lib.NumberValue;
+import com.woody.lib.Value;
+
 public class BinaryExpression implements Expression{
 
     private final Expression expr1, expr2;
@@ -12,13 +15,15 @@ public class BinaryExpression implements Expression{
     }
 
     @Override
-    public double eval() {
+    public Value eval() {
+        final double number1 = expr1.eval().asDouble();
+        final double number2 = expr2.eval().asDouble();
         switch (operation){
-            case '-': return expr1.eval() - expr2.eval();
-            case '*': return expr1.eval() * expr2.eval();
-            case '/': return expr1.eval() / expr2.eval();
+            case '-': return new NumberValue(number1 - number2);
+            case '*': return new NumberValue(number1 * number2);
+            case '/': return new NumberValue(number1 / number2);
             case '+':
-            default: return expr1.eval() + expr2.eval();
+            default: return new NumberValue(number1 + number2);
         }
     }
 

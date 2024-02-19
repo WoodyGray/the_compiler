@@ -11,6 +11,10 @@ public enum TokenType {
     NUMBER,
     HEX_NUMBER,
     WORD, // pi, e
+    TEXT,
+
+    //keyword
+    PRINT,
 
     LPAREN, // (
     RPAREN, // )

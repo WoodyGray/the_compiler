@@ -1,17 +1,18 @@
 package com.woody.ast;
 
+import com.woody.lib.Value;
 import com.woody.lib.Variables;
 
-public final class ConstantExpression implements Expression{
+public final class VariableExpression implements Expression{
     private final String name;
 
-    public ConstantExpression(String name) {
+    public VariableExpression(String name) {
         this.name = name;
     }
 
 
     @Override
-    public double eval() {
+    public Value eval() {
         if (!Variables.isExists(name)) throw new RuntimeException("Constant does not exists");
         return Variables.get(name);
     }
