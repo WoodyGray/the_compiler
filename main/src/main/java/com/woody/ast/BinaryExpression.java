@@ -1,6 +1,7 @@
 package com.woody.ast;
 
 import com.woody.lib.NumberValue;
+import com.woody.lib.StringValue;
 import com.woody.lib.Value;
 
 public class BinaryExpression implements Expression{
@@ -16,7 +17,25 @@ public class BinaryExpression implements Expression{
 
     @Override
     public Value eval() {
-        final double number1 = expr1.eval().asDouble();
+        final Value value1 = expr1.eval();
+        final Value value2 = expr2.eval();
+        if (value1 instanceof StringValue){
+            final String string1 = value1.asString();
+            switch (operation){
+                case '*': {
+                    final int iterations = (int) value2.asDouble();
+                    final StringBuilder buffer = new StringBuilder();
+                    for (int i = 0; i < iterations; i++) {
+                        buffer.append(string1);
+                    }
+                    return new StringValue(buffer.toString());
+                }
+                case '+':
+                default: return new StringValue(string1 + value2.asString());
+            }
+        }
+
+        final double number1 = value1.asDouble();
         final double number2 = expr2.eval().asDouble();
         switch (operation){
             case '-': return new NumberValue(number1 - number2);

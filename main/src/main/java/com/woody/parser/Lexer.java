@@ -38,8 +38,7 @@ public final class Lexer {
                 next();
                 tokenizeHexNumber();
             }else if (current == '"'){
-                next();
-                tokenizeHexNumber();
+                tokenizeText();
             }
             else if (OPERATOR_CHARS.indexOf(current) != -1){
                 tokenizeOperator();
@@ -70,6 +69,30 @@ public final class Lexer {
             addToken(TokenType.PRINT);
         else
             addToken(TokenType.WORD, toString);
+    }
+
+    private void tokenizeText(){
+        next(); // skip "
+        final StringBuilder buffer = new StringBuilder();
+        char current = peek(0);
+        while (true){
+            if (current == '\\'){
+                current = next();
+                switch (current){
+                    case '"': current = next(); buffer.append('"'); continue;
+                    case 'n': current = next(); buffer.append('\n'); continue;
+                    case 't': current = next(); buffer.append('\t'); continue;
+                }
+                buffer.append('\\');
+                continue;
+            }
+            if (current == '"') break;
+            buffer.append(current);
+            current = next();
+        }
+        next(); // skip closing "
+
+        addToken(TokenType.TEXT, buffer.toString());
     }
 
     private void tokenizeNumber() {
