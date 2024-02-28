@@ -1,4 +1,4 @@
-// Generated from D:/programs/java/github/the_compiler/test-script/test-script/src/main/java/antlr/TestScript.g4 by ANTLR 4.13.1
+// Generated from D:/study/github/the_compiler/test-script/test-script/src/main/java/antlr/TestScript.g4 by ANTLR 4.13.1
 package antlr;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 

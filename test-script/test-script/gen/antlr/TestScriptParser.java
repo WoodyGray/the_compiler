@@ -1,4 +1,4 @@
-// Generated from D:/programs/java/github/the_compiler/test-script/test-script/src/main/java/antlr/TestScript.g4 by ANTLR 4.13.1
+// Generated from D:/study/github/the_compiler/test-script/test-script/src/main/java/antlr/TestScript.g4 by ANTLR 4.13.1
 package antlr;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
@@ -41,7 +41,7 @@ public class TestScriptParser extends Parser {
 		return new String[] {
 			null, "'='", "'*'", "'/'", "'+'", "'-'", "'=='", "'!='", "'>'", "'<'", 
 			"'if'", "'('", "')'", "'{'", "'}'", "'else'", "'for'", "';'", "'while'", 
-			"'do'", "'print'", "'function'", "','"
+			"'do'", "'print'", "'def'", "','"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();

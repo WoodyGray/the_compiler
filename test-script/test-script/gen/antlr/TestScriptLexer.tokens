@@ -45,5 +45,5 @@ WS=27
 'while'=18
 'do'=19
 'print'=20
-'function'=21
+'def'=21
 ','=22

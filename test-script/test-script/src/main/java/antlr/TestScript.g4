@@ -10,6 +10,7 @@ statement: assignment
          | conditionalStatement
          | loopStatement
          | basicOutput
+         | functionDeclaration
          | functionCall
          | COMMENT;
 
