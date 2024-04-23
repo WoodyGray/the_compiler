@@ -29,12 +29,17 @@ public class Compiler {
         	
             Parser parser = new Parser(sourceFile);
             AST t = parser.execute();
+
+
             Constrainer con = new Constrainer(t,parser);
             con.execute();
             Codegen generator = new Codegen(t);
+//            Object result = generator.visitProgramTree(t);
             @SuppressWarnings("unused")
-			Program program = generator.execute();
+			  Program program = generator.execute();
+
             program.printCodes("result");
+
 
         }catch (Exception e) {
             System.out.println("********exception*******"+e.toString());
