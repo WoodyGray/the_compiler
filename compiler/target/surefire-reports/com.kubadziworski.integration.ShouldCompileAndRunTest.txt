@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: com.kubadziworski.integration.ShouldCompileAndRunTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.500 s <<< FAILURE! -- in com.kubadziworski.integration.ShouldCompileAndRunTest
+com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run[7] -- Time elapsed: 0.020 s <<< ERROR!
+java.lang.ClassNotFoundException: DefaultConstructor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run(ShouldCompileAndRunTest.groovy:23)
+
+com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run[8] -- Time elapsed: 0.006 s <<< ERROR!
+java.lang.ClassNotFoundException: ParameterLessConstructor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run(ShouldCompileAndRunTest.groovy:23)
+
+com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run[9] -- Time elapsed: 0.012 s <<< ERROR!
+java.lang.ClassNotFoundException: ConstructorWithParams
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run(ShouldCompileAndRunTest.groovy:23)
+

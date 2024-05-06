@@ -1,6 +1,0 @@
-word = 2 + 2
-word2 = PI + word
-str = "a" * 4
-print "word = " + word + ("\n" * 2)
-print "word2 = " + word2
-print "\n" * 2 + str

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.5" tests="14" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\programs\java\github\Enkel-JVM-language\compiler\target\test-classes;D:\programs\java\github\Enkel-JVM-language\compiler\target\classes;D:\programs\java\github\Enkel-JVM-language\antlr\target\antlr-1.0-SNAPSHOT.jar;C:\Users\WooDy\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\WooDy\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\WooDy\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\WooDy\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar;C:\Users\WooDy\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\WooDy\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\WooDy\.m2\repository\org\spockframework\spock-core\1.0-groovy-2.4\spock-core-1.0-groovy-2.4.jar;C:\Users\WooDy\.m2\repository\org\codehaus\groovy\groovy-all\2.4.1\groovy-all-2.4.1.jar;C:\Users\WooDy\.m2\repository\cglib\cglib\3.2.2\cglib-3.2.2.jar;C:\Users\WooDy\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\WooDy\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\WooDy\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\WooDy\.m2\repository\org\objenesis\objenesis\2.2\objenesis-2.2.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-beans\4.2.5.RELEASE\spring-beans-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-context\4.2.5.RELEASE\spring-context-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-aop\4.2.5.RELEASE\spring-aop-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-expression\4.2.5.RELEASE\spring-expression-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-core\4.2.5.RELEASE\spring-core-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-test\4.2.5.RELEASE\spring-test-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\WooDy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\WooDy\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\WooDy\.m2\repository\org\apache\commons\commons-math3\3.6\commons-math3-3.6.jar;C:\Users\WooDy\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\WooDy\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\WooDy\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\WooDy\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\WooDy\.m2\repository\org\slf4j\slf4j-log4j12\1.7.21\slf4j-log4j12-1.7.21.jar;C:\Users\WooDy\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\WooDy\.m2\repository\org\antlr\antlr4-runtime\4.3\antlr4-runtime-4.3.jar;C:\Users\WooDy\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.1\org.abego.treelayout.core-1.0.1.jar;C:\Users\WooDy\.m2\repository\org\antlr\antlr4-annotations\4.3\antlr4-annotations-4.3.jar;C:\Users\WooDy\.m2\repository\org\ow2\asm\asm-all\5.1\asm-all-5.1.jar;C:\Users\WooDy\.m2\repository\org\projectlombok\lombok\1.16.8\lombok-1.16.8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\WooDy\AppData\Local\Temp\surefire4677186465086135342\surefirebooter-20240503144719652_3.jar C:\Users\WooDy\AppData\Local\Temp\surefire4677186465086135342 2024-05-03T14-47-13_489-jvmRun1 surefire-20240503144719652_1tmp surefire_0-20240503144719652_2tmp"/>
+    <property name="surefire.test.class.path" value="D:\programs\java\github\Enkel-JVM-language\compiler\target\test-classes;D:\programs\java\github\Enkel-JVM-language\compiler\target\classes;D:\programs\java\github\Enkel-JVM-language\antlr\target\antlr-1.0-SNAPSHOT.jar;C:\Users\WooDy\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\WooDy\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\WooDy\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\WooDy\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar;C:\Users\WooDy\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\WooDy\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar;C:\Users\WooDy\.m2\repository\org\spockframework\spock-core\1.0-groovy-2.4\spock-core-1.0-groovy-2.4.jar;C:\Users\WooDy\.m2\repository\org\codehaus\groovy\groovy-all\2.4.1\groovy-all-2.4.1.jar;C:\Users\WooDy\.m2\repository\cglib\cglib\3.2.2\cglib-3.2.2.jar;C:\Users\WooDy\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\WooDy\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\WooDy\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\WooDy\.m2\repository\org\objenesis\objenesis\2.2\objenesis-2.2.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-beans\4.2.5.RELEASE\spring-beans-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-context\4.2.5.RELEASE\spring-context-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-aop\4.2.5.RELEASE\spring-aop-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-expression\4.2.5.RELEASE\spring-expression-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-core\4.2.5.RELEASE\spring-core-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\org\springframework\spring-test\4.2.5.RELEASE\spring-test-4.2.5.RELEASE.jar;C:\Users\WooDy\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\WooDy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\WooDy\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\WooDy\.m2\repository\org\apache\commons\commons-math3\3.6\commons-math3-3.6.jar;C:\Users\WooDy\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\WooDy\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\WooDy\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\WooDy\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\WooDy\.m2\repository\org\slf4j\slf4j-log4j12\1.7.21\slf4j-log4j12-1.7.21.jar;C:\Users\WooDy\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\WooDy\.m2\repository\org\antlr\antlr4-runtime\4.3\antlr4-runtime-4.3.jar;C:\Users\WooDy\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.1\org.abego.treelayout.core-1.0.1.jar;C:\Users\WooDy\.m2\repository\org\antlr\antlr4-annotations\4.3\antlr4-annotations-4.3.jar;C:\Users\WooDy\.m2\repository\org\ow2\asm\asm-all\5.1\asm-all-5.1.jar;C:\Users\WooDy\.m2\repository\org\projectlombok\lombok\1.16.8\lombok-1.16.8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\WooDy"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="D:\programs\java\github\Enkel-JVM-language\compiler"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\WooDy\AppData\Local\Temp\surefire4677186465086135342\surefirebooter-20240503144719652_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="WooDy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\WooDy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\WooDy\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="D:\programs\java\github\Enkel-JVM-language\compiler"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;D:\programs\java\jdk-8\bin;D:\programs\java\maven\apache-maven-3.9.4\bin;C:\WINDOWS\System32\netstat.exe;D:\programs\java\jdk-19.0.1\bin;D:\programs\java\jdk-17\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\bin;D:\programs\java\maven\apache-maven-3.9.4\bin;C:\Windows\system32;D:\programs\java\jdk-19.0.1\bin;D:\programs\java\jdk-17\bin;C:\Windows\Logs\Dism\dism.log;C:\Users\WooDy\AppData\Roaming\npm;D:\programs\IntelliJ IDEA 2023.2.6\bin;;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Should Compile and run[0]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.282">
+    <system-out><![CDATA[2024-05-03 14:47:20,732 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\HelloWorld.enk'.
+2024-05-03 14:47:20,867 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:20,896 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\HelloWorld.class'.
+2024-05-03 14:47:20,900 : Done. To run compiled file execute: 'java HelloWorld' in current dir
+hello world!
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[1]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.025">
+    <system-out><![CDATA[2024-05-03 14:47:20,961 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\Loops.enk'.
+2024-05-03 14:47:20,969 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:20,971 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\Loops.class'.
+2024-05-03 14:47:20,971 : Done. To run compiled file execute: 'java Loops' in current dir
+incrementing from 1 to 10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+decrementing from 10 to 1
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[2]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.017">
+    <system-out><![CDATA[2024-05-03 14:47:20,974 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\AllPrimitiveTypes.enk'.
+2024-05-03 14:47:20,997 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:20,998 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\AllPrimitiveTypes.class'.
+2024-05-03 14:47:20,998 : Done. To run compiled file execute: 'java AllPrimitiveTypes' in current dir
+stringVar=str, booleanVar=false, integerVar=2745, doubleVar=2343.05
+5.0 is the sum of 2.5 and 2.5
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[3]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.017">
+    <system-out><![CDATA[2024-05-03 14:47:21,002 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\DefaultParamTest.enk'.
+2024-05-03 14:47:21,012 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,013 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\DefaultParamTest.class'.
+2024-05-03 14:47:21,014 : Done. To run compiled file execute: 'java DefaultParamTest' in current dir
+Hello my name is 
+kuba
+and my favourite langugage is 
+enkel
+Hello my name is 
+andrew
+and my favourite langugage is 
+java
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[4]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.005">
+    <system-out><![CDATA[2024-05-03 14:47:21,018 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\Fields.enk'.
+2024-05-03 14:47:21,021 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,022 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\Fields.class'.
+2024-05-03 14:47:21,022 : Done. To run compiled file execute: 'java Fields' in current dir
+5
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[5]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.02">
+    <system-out><![CDATA[2024-05-03 14:47:21,026 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\NamedParamsTest.enk'.
+2024-05-03 14:47:21,035 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,039 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\NamedParamsTest.class'.
+2024-05-03 14:47:21,039 : Done. To run compiled file execute: 'java NamedParamsTest' in current dir
+Created rect with x1=25 y1=-25 x2=50 y2=-50
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[6]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.017">
+    <system-out><![CDATA[2024-05-03 14:47:21,045 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\SumCalculator.enk'.
+2024-05-03 14:47:21,055 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,056 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\SumCalculator.class'.
+2024-05-03 14:47:21,056 : Done. To run compiled file execute: 'java SumCalculator' in current dir
+test passed
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[7]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.02">
+    <error message="DefaultConstructor" type="java.lang.ClassNotFoundException"><![CDATA[java.lang.ClassNotFoundException: DefaultConstructor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run(ShouldCompileAndRunTest.groovy:23)
+]]></error>
+    <system-out><![CDATA[2024-05-03 14:47:21,060 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\DefaultConstructor.enk'.
+2024-05-03 14:47:21,061 : ERROR: D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\DefaultConstructor.enk (Не удается найти указанный файл)
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[8]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.006">
+    <error message="ParameterLessConstructor" type="java.lang.ClassNotFoundException"><![CDATA[java.lang.ClassNotFoundException: ParameterLessConstructor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run(ShouldCompileAndRunTest.groovy:23)
+]]></error>
+    <system-out><![CDATA[2024-05-03 14:47:21,076 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\ParameterLessConstructor.enk'.
+2024-05-03 14:47:21,076 : ERROR: D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\ParameterLessConstructor.enk (Не удается найти указанный файл)
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[9]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.012">
+    <error message="ConstructorWithParams" type="java.lang.ClassNotFoundException"><![CDATA[java.lang.ClassNotFoundException: ConstructorWithParams
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.kubadziworski.integration.ShouldCompileAndRunTest.Should Compile and run(ShouldCompileAndRunTest.groovy:23)
+]]></error>
+    <system-out><![CDATA[2024-05-03 14:47:21,083 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\ConstructorWithParams.enk'.
+2024-05-03 14:47:21,083 : ERROR: D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\ConstructorWithParams.enk (Не удается найти указанный файл)
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[10]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.062">
+    <system-out><![CDATA[2024-05-03 14:47:21,085 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\EqualitySyntax.enk'.
+2024-05-03 14:47:21,127 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,147 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\EqualitySyntax.class'.
+2024-05-03 14:47:21,148 : Done. To run compiled file execute: 'java EqualitySyntax' in current dir
+Comparing integer 3 and 3
+OK
+OK
+OK
+OK
+OK
+OK
+Comparing primitive 3 and 3
+OK
+OK
+OK
+OK
+OK
+OK
+Comparing primitive 3 and 4
+OK
+OK
+OK
+OK
+OK
+OK
+Comparing integer 3 and 4
+OK
+OK
+OK
+OK
+OK
+OK
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[11]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.004">
+    <system-out><![CDATA[2024-05-03 14:47:21,152 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\Constructor\ConstructorWithParams.enk'.
+2024-05-03 14:47:21,154 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,156 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\ConstructorWithParams.class'.
+2024-05-03 14:47:21,158 : Done. To run compiled file execute: 'java ConstructorWithParams' in current dir
+Hey I am constructor with parameter x = 5
+doing stuff on ConstructorWithParams instance
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[12]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.003">
+    <system-out><![CDATA[2024-05-03 14:47:21,162 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\Constructor\DefaultConstructor.enk'.
+2024-05-03 14:47:21,163 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,164 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\DefaultConstructor.class'.
+2024-05-03 14:47:21,164 : Done. To run compiled file execute: 'java DefaultConstructor' in current dir
+Hey I am 'start' method. I am not static so the default constructor must have been called, even though it is not defined
+]]></system-out>
+  </testcase>
+  <testcase name="Should Compile and run[13]" classname="com.kubadziworski.integration.ShouldCompileAndRunTest" time="0.002">
+    <system-out><![CDATA[2024-05-03 14:47:21,169 : Trying to parse 'D:\programs\java\github\Enkel-JVM-language\compiler\..\EnkelExamples\Constructor\ParameterLessConstructor.enk'.
+2024-05-03 14:47:21,170 : Finished Parsing. Started compiling to bytecode.
+2024-05-03 14:47:21,171 : Finished Compiling. Saving bytecode to 'D:\programs\java\github\Enkel-JVM-language\compiler\ParameterLessConstructor.class'.
+2024-05-03 14:47:21,172 : Done. To run compiled file execute: 'java ParameterLessConstructor' in current dir
+Hey I am constructor without parameters
+doing stuff on ParameterLessConstructor object
+]]></system-out>
+  </testcase>
+</testsuite>
