@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor.expression;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.ConditionalExpressionContext;
-import com.woody.antlr.EnkelParser.ExpressionContext;
+import com.woody.antlr.WlangParser.ConditionalExpressionContext;
+import com.woody.antlr.WlangParser.ExpressionContext;
 import com.woody.domain.node.expression.ConditionalExpression;
 import com.woody.domain.node.expression.Expression;
 import com.woody.domain.node.expression.Value;
@@ -11,7 +9,7 @@ import com.woody.domain.CompareSign;
 import com.woody.domain.type.BultInType;
 import org.antlr.v4.runtime.misc.NotNull;
 
-public class ConditionalExpressionVisitor extends EnkelBaseVisitor<ConditionalExpression> {
+public class ConditionalExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<ConditionalExpression> {
     private final ExpressionVisitor expressionVisitor;
 
     public ConditionalExpressionVisitor(ExpressionVisitor expressionVisitor) {

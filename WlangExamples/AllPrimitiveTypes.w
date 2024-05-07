@@ -1,3 +1,4 @@
+
 AllPrimitiveTypes {
 
     start() {

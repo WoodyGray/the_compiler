@@ -1,17 +1,13 @@
 package com.woody.util;
 
-import com.google.common.primitives.Booleans;
 import com.google.common.primitives.Doubles;
 import com.google.common.primitives.Floats;
 import com.google.common.primitives.Ints;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.TypeContext;
+import com.woody.antlr.WlangParser.TypeContext;
 import com.woody.domain.type.BultInType;
 import com.woody.domain.type.ClassType;
 import com.woody.domain.type.Type;
-import org.apache.commons.lang3.BooleanUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.math.NumberUtils;
 
 import java.util.Arrays;
 import java.util.Optional;
@@ -33,7 +29,7 @@ public final class TypeResolver {
         return new ClassType(typeName);
     }
 
-    public static Type getFromValue(EnkelParser.ValueContext value) {
+    public static Type getFromValue(com.woody.antlr.WlangParser.ValueContext value) {
         String stringValue = value.getText();
         if (StringUtils.isEmpty(stringValue)) return BultInType.VOID;
         if (value.NUMBER() != null) {

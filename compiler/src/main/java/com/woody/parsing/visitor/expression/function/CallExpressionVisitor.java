@@ -1,10 +1,9 @@
 package com.woody.parsing.visitor.expression.function;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser.ArgumentListContext;
-import com.woody.antlr.EnkelParser.ConstructorCallContext;
-import com.woody.antlr.EnkelParser.FunctionCallContext;
-import com.woody.antlr.EnkelParser.SupercallContext;
+import com.woody.antlr.WlangParser.ArgumentListContext;
+import com.woody.antlr.WlangParser.ConstructorCallContext;
+import com.woody.antlr.WlangParser.FunctionCallContext;
+import com.woody.antlr.WlangParser.SupercallContext;
 import com.woody.domain.node.expression.*;
 import com.woody.domain.scope.FunctionSignature;
 import com.woody.domain.scope.LocalVariable;
@@ -18,7 +17,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-public class CallExpressionVisitor extends EnkelBaseVisitor<Call> {
+public class CallExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<Call> {
     private final ExpressionVisitor expressionVisitor;
     private final Scope scope;
 

@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.ClassDeclarationContext;
-import com.woody.antlr.EnkelParser.FunctionContext;
+import com.woody.antlr.WlangParser.ClassDeclarationContext;
+import com.woody.antlr.WlangParser.FunctionContext;
 import com.woody.domain.Constructor;
 import com.woody.domain.Function;
 import com.woody.domain.node.expression.ConstructorCall;
@@ -28,7 +26,7 @@ import static java.util.stream.Collectors.toList;
 /**
  * Created by kuba on 01.04.16.
  */
-public class ClassVisitor extends EnkelBaseVisitor<ClassDeclaration> {
+public class ClassVisitor extends com.woody.antlr.WlangBaseVisitor<ClassDeclaration> {
 
     private Scope scope;
 

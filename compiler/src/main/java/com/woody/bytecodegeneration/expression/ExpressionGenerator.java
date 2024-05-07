@@ -5,9 +5,6 @@ import com.woody.domain.node.expression.arthimetic.*;
 import com.woody.domain.scope.Scope;
 import org.objectweb.asm.MethodVisitor;
 
-/**
- * Created by kuba on 02.04.16.
- */
 public class ExpressionGenerator {
 
 

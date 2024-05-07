@@ -5,9 +5,7 @@ import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.FieldVisitor;
 import org.objectweb.asm.Opcodes;
 
-/**
- * Created by kuba on 13.05.16.
- */
+
 public class FieldGenerator {
 
 

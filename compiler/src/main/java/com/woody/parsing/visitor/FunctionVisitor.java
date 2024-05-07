@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.BlockContext;
-import com.woody.antlr.EnkelParser.FunctionContext;
+import com.woody.antlr.WlangParser.BlockContext;
+import com.woody.antlr.WlangParser.FunctionContext;
 import com.woody.domain.Constructor;
 import com.woody.domain.Function;
 import com.woody.domain.scope.FunctionSignature;
@@ -16,7 +14,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 /**
  * Created by kuba on 01.04.16.
  */
-public class FunctionVisitor extends EnkelBaseVisitor<Function> {
+public class FunctionVisitor extends com.woody.antlr.WlangBaseVisitor<Function> {
 
     private final Scope scope;
 

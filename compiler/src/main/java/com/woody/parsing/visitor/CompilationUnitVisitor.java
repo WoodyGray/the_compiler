@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.ClassDeclarationContext;
-import com.woody.antlr.EnkelParser.CompilationUnitContext;
+import com.woody.antlr.WlangParser.ClassDeclarationContext;
+import com.woody.antlr.WlangParser.CompilationUnitContext;
 import com.woody.domain.CompilationUnit;
 import com.woody.domain.ClassDeclaration;
 import org.antlr.v4.runtime.misc.NotNull;
@@ -11,7 +9,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 /**
  * Created by kuba on 28.03.16.
  */
-public class CompilationUnitVisitor extends EnkelBaseVisitor<CompilationUnit> {
+public class CompilationUnitVisitor extends com.woody.antlr.WlangBaseVisitor<CompilationUnit> {
 
     @Override
     public CompilationUnit visitCompilationUnit(@NotNull CompilationUnitContext ctx) {

@@ -1,8 +1,7 @@
 package com.woody.parsing.visitor;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser.FunctionDeclarationContext;
-import com.woody.antlr.EnkelParser.ParametersListContext;
+import com.woody.antlr.WlangParser.FunctionDeclarationContext;
+import com.woody.antlr.WlangParser.ParametersListContext;
 import com.woody.domain.node.expression.Parameter;
 import com.woody.domain.scope.Scope;
 import com.woody.domain.type.Type;
@@ -18,7 +17,7 @@ import java.util.List;
 /**
  * Created by kuba on 06.04.16.
  */
-public class FunctionSignatureVisitor extends EnkelBaseVisitor<FunctionSignature> {
+public class FunctionSignatureVisitor extends com.woody.antlr.WlangBaseVisitor<FunctionSignature> {
 
     private final ExpressionVisitor expressionVisitor;
 

@@ -10,9 +10,7 @@ import com.woody.domain.scope.Scope;
 import com.woody.domain.node.statement.*;
 import org.objectweb.asm.MethodVisitor;
 
-/**
- * Created by kuba on 29.03.16.
- */
+
 public class StatementGenerator {
 
     private final PrintStatementGenerator printStatementGenerator;

@@ -14,9 +14,7 @@ import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
 
-/**
- * Created by kuba on 28.03.16.
- */
+
 public class MethodGenerator {
     public static final String MAIN_FUN_NAME = "main";
     private final ClassWriter classWriter;

@@ -1,23 +1,21 @@
 package com.woody.parsing.visitor.statement;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.AddContext;
-import com.woody.antlr.EnkelParser.BlockContext;
-import com.woody.antlr.EnkelParser.ConditionalExpressionContext;
-import com.woody.antlr.EnkelParser.ConstructorCallContext;
-import com.woody.antlr.EnkelParser.DivideContext;
-import com.woody.antlr.EnkelParser.FunctionCallContext;
-import com.woody.antlr.EnkelParser.IfStatementContext;
-import com.woody.antlr.EnkelParser.MultiplyContext;
-import com.woody.antlr.EnkelParser.PrintStatementContext;
-import com.woody.antlr.EnkelParser.ReturnVoidContext;
-import com.woody.antlr.EnkelParser.ReturnWithValueContext;
-import com.woody.antlr.EnkelParser.SubstractContext;
-import com.woody.antlr.EnkelParser.SupercallContext;
-import com.woody.antlr.EnkelParser.ValueContext;
-import com.woody.antlr.EnkelParser.VarReferenceContext;
-import com.woody.antlr.EnkelParser.VariableDeclarationContext;
+import com.woody.antlr.WlangParser.AddContext;
+import com.woody.antlr.WlangParser.BlockContext;
+import com.woody.antlr.WlangParser.ConditionalExpressionContext;
+import com.woody.antlr.WlangParser.ConstructorCallContext;
+import com.woody.antlr.WlangParser.DivideContext;
+import com.woody.antlr.WlangParser.FunctionCallContext;
+import com.woody.antlr.WlangParser.IfStatementContext;
+import com.woody.antlr.WlangParser.MultiplyContext;
+import com.woody.antlr.WlangParser.PrintStatementContext;
+import com.woody.antlr.WlangParser.ReturnVoidContext;
+import com.woody.antlr.WlangParser.ReturnWithValueContext;
+import com.woody.antlr.WlangParser.SubstractContext;
+import com.woody.antlr.WlangParser.SupercallContext;
+import com.woody.antlr.WlangParser.ValueContext;
+import com.woody.antlr.WlangParser.VarReferenceContext;
+import com.woody.antlr.WlangParser.VariableDeclarationContext;
 import com.woody.domain.node.expression.ConditionalExpression;
 import com.woody.domain.node.expression.Expression;
 import com.woody.domain.scope.Scope;
@@ -29,7 +27,7 @@ import org.antlr.v4.runtime.misc.NotNull;
  * Created by kuba on 01.04.16.
  */
 
-public class StatementVisitor extends EnkelBaseVisitor<Statement> {
+public class StatementVisitor extends com.woody.antlr.WlangBaseVisitor<Statement> {
 
     private final ExpressionVisitor expressionVisitor;
     private final PrintStatementVisitor printStatementVisitor;
@@ -132,12 +130,12 @@ public class StatementVisitor extends EnkelBaseVisitor<Statement> {
     }
 
     @Override
-    public Statement visitForStatement(@NotNull EnkelParser.ForStatementContext ctx) {
+    public Statement visitForStatement(@NotNull com.woody.antlr.WlangParser.ForStatementContext ctx) {
         return forStatementVisitor.visitForStatement(ctx);
     }
 
     @Override
-    public Statement visitAssignment(@NotNull EnkelParser.AssignmentContext ctx) {
+    public Statement visitAssignment(@NotNull com.woody.antlr.WlangParser.AssignmentContext ctx) {
         return assignmentStatementVisitor.visitAssignment(ctx);
     }
 }

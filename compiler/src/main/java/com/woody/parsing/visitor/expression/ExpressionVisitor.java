@@ -1,16 +1,15 @@
 package com.woody.parsing.visitor.expression;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser.AddContext;
-import com.woody.antlr.EnkelParser.ConditionalExpressionContext;
-import com.woody.antlr.EnkelParser.ConstructorCallContext;
-import com.woody.antlr.EnkelParser.DivideContext;
-import com.woody.antlr.EnkelParser.FunctionCallContext;
-import com.woody.antlr.EnkelParser.MultiplyContext;
-import com.woody.antlr.EnkelParser.SubstractContext;
-import com.woody.antlr.EnkelParser.SupercallContext;
-import com.woody.antlr.EnkelParser.ValueContext;
-import com.woody.antlr.EnkelParser.VarReferenceContext;
+import com.woody.antlr.WlangParser.AddContext;
+import com.woody.antlr.WlangParser.ConditionalExpressionContext;
+import com.woody.antlr.WlangParser.ConstructorCallContext;
+import com.woody.antlr.WlangParser.DivideContext;
+import com.woody.antlr.WlangParser.FunctionCallContext;
+import com.woody.antlr.WlangParser.MultiplyContext;
+import com.woody.antlr.WlangParser.SubstractContext;
+import com.woody.antlr.WlangParser.SupercallContext;
+import com.woody.antlr.WlangParser.ValueContext;
+import com.woody.antlr.WlangParser.VarReferenceContext;
 import com.woody.domain.node.expression.*;
 import com.woody.domain.scope.Scope;
 import com.woody.parsing.visitor.expression.function.CallExpressionVisitor;
@@ -19,7 +18,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 /**
  * Created by kuba on 02.04.16.
  */
-public class ExpressionVisitor extends EnkelBaseVisitor<Expression> {
+public class ExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<Expression> {
 
     private final ArithmeticExpressionVisitor arithmeticExpressionVisitor;
     private final VariableReferenceExpressionVisitor variableReferenceExpressionVisitor;

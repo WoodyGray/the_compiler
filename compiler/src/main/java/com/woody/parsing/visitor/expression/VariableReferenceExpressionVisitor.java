@@ -1,7 +1,6 @@
 package com.woody.parsing.visitor.expression;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser.VarReferenceContext;
+import com.woody.antlr.WlangParser.VarReferenceContext;
 import com.woody.domain.node.expression.FieldReference;
 import com.woody.domain.node.expression.LocalVariableReference;
 import com.woody.domain.node.expression.Reference;
@@ -10,7 +9,7 @@ import com.woody.domain.scope.LocalVariable;
 import com.woody.domain.scope.Scope;
 import org.antlr.v4.runtime.misc.NotNull;
 
-public class VariableReferenceExpressionVisitor extends EnkelBaseVisitor<Reference> {
+public class VariableReferenceExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<Reference> {
     private final Scope scope;
 
     public VariableReferenceExpressionVisitor(Scope scope) {

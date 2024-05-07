@@ -1,17 +1,15 @@
 package com.woody.parsing.visitor.expression;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.AddContext;
-import com.woody.antlr.EnkelParser.DivideContext;
-import com.woody.antlr.EnkelParser.ExpressionContext;
-import com.woody.antlr.EnkelParser.MultiplyContext;
-import com.woody.antlr.EnkelParser.SubstractContext;
+import com.woody.antlr.WlangParser.AddContext;
+import com.woody.antlr.WlangParser.DivideContext;
+import com.woody.antlr.WlangParser.ExpressionContext;
+import com.woody.antlr.WlangParser.MultiplyContext;
+import com.woody.antlr.WlangParser.SubstractContext;
 import com.woody.domain.node.expression.Expression;
 import com.woody.domain.node.expression.arthimetic.*;
 import org.antlr.v4.runtime.misc.NotNull;
 
-public class ArithmeticExpressionVisitor extends EnkelBaseVisitor<ArthimeticExpression> {
+public class ArithmeticExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<ArthimeticExpression> {
     private final ExpressionVisitor expressionVisitor;
 
     public ArithmeticExpressionVisitor(ExpressionVisitor expressionVisitor) {

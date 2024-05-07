@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor.statement;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.BlockContext;
-import com.woody.antlr.EnkelParser.StatementContext;
+import com.woody.antlr.WlangParser.BlockContext;
+import com.woody.antlr.WlangParser.StatementContext;
 import com.woody.domain.scope.Scope;
 import com.woody.domain.node.statement.Block;
 import com.woody.domain.node.statement.Statement;
@@ -12,7 +10,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class BlockStatementVisitor extends EnkelBaseVisitor<Block>{
+public class BlockStatementVisitor extends com.woody.antlr.WlangBaseVisitor<Block> {
     private final Scope scope;
 
     public BlockStatementVisitor(Scope scope) {

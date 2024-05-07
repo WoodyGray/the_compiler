@@ -1,8 +1,7 @@
 package com.woody.parsing.visitor.expression.function;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser.ParameterContext;
-import com.woody.antlr.EnkelParser.ParameterWithDefaultValueContext;
+import com.woody.antlr.WlangParser.ParameterContext;
+import com.woody.antlr.WlangParser.ParameterWithDefaultValueContext;
 import com.woody.domain.node.expression.Expression;
 import com.woody.domain.node.expression.Parameter;
 import com.woody.domain.type.Type;
@@ -15,7 +14,7 @@ import java.util.Optional;
 /**
  * Created by kuba on 09.05.16.
  */
-public class ParameterExpressionVisitor extends EnkelBaseVisitor<Parameter> {
+public class ParameterExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<Parameter> {
 
     private final ExpressionVisitor expressionVisitor;
 

@@ -1,9 +1,8 @@
 package com.woody.parsing.visitor.statement;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser.ForConditionsContext;
-import com.woody.antlr.EnkelParser.ForStatementContext;
-import com.woody.antlr.EnkelParser.VariableReferenceContext;
+import com.woody.antlr.WlangParser.ForConditionsContext;
+import com.woody.antlr.WlangParser.ForStatementContext;
+import com.woody.antlr.WlangParser.VariableReferenceContext;
 import com.woody.domain.node.expression.Expression;
 import com.woody.domain.node.statement.RangedForStatement;
 import com.woody.domain.scope.LocalVariable;
@@ -17,7 +16,7 @@ import org.antlr.v4.runtime.misc.NotNull;
 /**
  * Created by kuba on 23.04.16.
  */
-public class ForStatementVisitor extends EnkelBaseVisitor<RangedForStatement> {
+public class ForStatementVisitor extends com.woody.antlr.WlangBaseVisitor<RangedForStatement> {
     private final Scope scope;
     private final ExpressionVisitor expressionVisitor;
 

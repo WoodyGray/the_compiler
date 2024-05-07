@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor.expression.function;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.ArgumentContext;
-import com.woody.antlr.EnkelParser.NamedArgumentContext;
+import com.woody.antlr.WlangParser.ArgumentContext;
+import com.woody.antlr.WlangParser.NamedArgumentContext;
 import com.woody.domain.node.expression.Argument;
 import com.woody.domain.node.expression.Expression;
 import com.woody.parsing.visitor.expression.ExpressionVisitor;
@@ -14,7 +12,7 @@ import java.util.Optional;
 /**
  * Created by kuba on 09.05.16.
  */
-public class ArgumentExpressionVisitor extends EnkelBaseVisitor<Argument> {
+public class ArgumentExpressionVisitor extends com.woody.antlr.WlangBaseVisitor<Argument> {
 
     private final ExpressionVisitor expressionVisitor;
 

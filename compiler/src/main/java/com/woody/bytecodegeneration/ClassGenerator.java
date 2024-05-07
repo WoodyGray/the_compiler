@@ -9,9 +9,7 @@ import org.objectweb.asm.Opcodes;
 import java.util.Collection;
 import java.util.List;
 
-/**
- * Created by kuba on 28.03.16.
- */
+
 public class ClassGenerator {
 
     private static final int CLASS_VERSION = 52;

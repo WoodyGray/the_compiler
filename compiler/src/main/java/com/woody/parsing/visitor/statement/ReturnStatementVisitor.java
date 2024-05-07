@@ -1,9 +1,7 @@
 package com.woody.parsing.visitor.statement;
 
-import com.woody.antlr.EnkelBaseVisitor;
-import com.woody.antlr.EnkelParser;
-import com.woody.antlr.EnkelParser.ReturnVoidContext;
-import com.woody.antlr.EnkelParser.ReturnWithValueContext;
+import com.woody.antlr.WlangParser.ReturnVoidContext;
+import com.woody.antlr.WlangParser.ReturnWithValueContext;
 import com.woody.domain.node.expression.EmptyExpression;
 import com.woody.domain.node.expression.Expression;
 import com.woody.domain.node.statement.ReturnStatement;
@@ -11,7 +9,7 @@ import com.woody.domain.type.BultInType;
 import com.woody.parsing.visitor.expression.ExpressionVisitor;
 import org.antlr.v4.runtime.misc.NotNull;
 
-public class ReturnStatementVisitor extends EnkelBaseVisitor<ReturnStatement> {
+public class ReturnStatementVisitor extends com.woody.antlr.WlangBaseVisitor<ReturnStatement> {
     private final ExpressionVisitor expressionVisitor;
 
     public ReturnStatementVisitor(ExpressionVisitor expressionVisitor) {
