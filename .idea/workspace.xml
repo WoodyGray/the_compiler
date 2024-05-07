@@ -5,255 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/the_compiler.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/program.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/AST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/ActualArgsTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/AddOpTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/AssignTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/BlockTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/BoolTypeTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/CallTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/DeclTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/FormalsTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/FunctionDeclTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/IdTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/IfTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/IntTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/IntTypeTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/MultOpTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/ProgramTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/RelOpTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/ReturnTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/ast/WhileTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/Code.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/Codegen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/Codes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/FunctionOpcode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/LabelOpcode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/NumOpcode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/codegen/VarOpcode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/compiler/Compiler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/compiler/Sample.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/constrain/Constrainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/constrain/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/factory/AbstractFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/factory/ConcreteASTFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/factory/ConcreteByteCodeFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/ByteCodeLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/Codetable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/Interpreter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/RunTimeStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/VirtualMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/arithmetic00.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/arithmetic02.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/ArgsCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/BopCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/BranchingCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/Bytecode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/CallCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/DumpCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/FalseBranchCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/FormalCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/FunctionCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/GotoCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/HaltCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/LabelCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/LineCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/LitCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/LoadCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/PopCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/ReadCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/ReturnCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/StoreCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/bytecode/WriteCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/debugger/FunctionEnvironmentRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/debugger/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/debugger/UI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/factorial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/factorial.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/factorial.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/factorialll.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/function.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/io.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/labels.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/nested.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/sample.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/simple.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/simple.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/interpreter/simpleFrame.x.cod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/Lexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/Sample.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/SourceReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/Symbol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/TokenType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/Tokens.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/factorial.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/setup/TokenSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/setup/tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/lexer/simple.x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/parser/Parser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/parser/parserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/visitor/ASTVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/visitor/PrintVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/test/java/com/woody/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/AST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/ActualArgsTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/AddOpTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/AssignTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/BlockTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/BoolTypeTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/CallTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/DeclTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/FormalsTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/FunctionDeclTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/IdTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/IfTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/IntTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/IntTypeTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/MultOpTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/ProgramTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/RelOpTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/ReturnTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/ast/WhileTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Code.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Codegen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Codes$ByteCodes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Codes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Frame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/FunctionOpcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/LabelOpcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/NumOpcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/codegen/VarOpcode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/compiler/Compiler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/constrain/Binder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/constrain/Constrainer$ConstrainerErrors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/constrain/Constrainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/constrain/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/factory/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/factory/ConcreteASTFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/factory/ConcreteByteCodeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/ByteCodeLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/Codetable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/Interpreter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/Program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/RunTimeStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/VirtualMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/ArgsCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/BopCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/BranchingCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/Bytecode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/CallCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/DumpCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/FalseBranchCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/FormalCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/FunctionCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/GotoCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/HaltCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/LabelCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/LineCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/LitCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/LoadCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/PopCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/ReadCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/ReturnCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/StoreCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/bytecode/WriteCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/debugger/Binder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/debugger/FunctionEnvironmentRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/debugger/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/interpreter/debugger/UI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/Lexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/SourceReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/Symbol.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/TokenType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/Tokens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/lexer/setup/TokenSetup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/parser/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/parser/SyntaxError.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/parser/parserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/visitor/ASTVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/classes/visitor/PrintVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/target/test-classes/com/woody/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postfix.grammar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScript.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScript.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptBaseListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptBaseVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptLexer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/gen/antlr/TestScriptVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/src/main/java/antlr/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/src/main/java/antlr/TestScript.g4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/src/test/java/antlr/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScript.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScript.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptBaseListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptBaseVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptLexer.interp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ArgumentListContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ArithmeticOperationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$AssignmentContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$BasicOutputContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ConditionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ConditionalStatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ExpressionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$FunctionCallContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$FunctionDeclarationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$FunctionNameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$LogicalOperationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$LoopStatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$NumberContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ParameterListContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$ProgramContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$StatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser$VariableContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/classes/antlr/TestScriptVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/target/test-classes/antlr/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-script/test-script/test-script.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_script/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/AllPrimitiveTypes.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/ClassPathCalls/Client.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/ClassPathCalls/Library.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Constructor/ConstructorWithParams.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Constructor/DefaultConstructor.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Constructor/ParameterLessConstructor.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/DefaultParamTest.enk" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/DefaultParamTest.w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/EqualitySyntax.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Fields.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/HelloWorld.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Loops.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/NamedParamsTest.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/RealApp/Card.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/RealApp/CardDrawer.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/SumCalculator.enk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/compiler/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/compiler/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/bytecodegeneration/expression/CallExpressionGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/bytecodegeneration/expression/ReferenceExpressionGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/bytecodegeneration/statement/AssignmentStatementGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/domain/scope/ClassPathScopeTest$__spock_feature_0_0_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/domain/scope/ClassPathScopeTest$__spock_feature_0_2_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/domain/scope/ClassPathScopeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/integration/ShouldCompileAndRunTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/parsing/visitor/FieldVisitorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/parsing/visitor/statement/AssignmentStatementVisitorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/util/DescriptorFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/test-classes/com/kubadziworski/util/TypeResolverTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,36 +47,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
   <component name="ProjectId" id="2g6rwowdy8K8pu6OTKPxVg42SWm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/programs/java/github/the_compiler",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunManager">
     <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.woody.compiler.Compiler" />
       <module name="compiler" />
-      <option name="PROGRAM_PARAMETERS" value="D:\programs\java\github\the_compiler\EnkelExamples\DefaultParamTest.enk" />
+      <option name="PROGRAM_PARAMETERS" value="D:\study\github\the_compiler\WlangExamples\DefaultParamTest.w" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.woody.compiler.*" />
@@ -306,8 +74,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="the_compiler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -315,6 +101,33 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="the_compiler" />
       <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,10 +142,22 @@
       <option name="presentableId" value="Default" />
       <updated>1715029111053</updated>
       <workItem from="1715029112053" duration="1033000" />
+      <workItem from="1715061513176" duration="1153000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

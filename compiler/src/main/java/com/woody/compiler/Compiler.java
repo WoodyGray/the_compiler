@@ -47,7 +47,7 @@ public class Compiler {
             return ARGUMENT_ERRORS.NO_FILE;
         }
         String filePath = args[0];
-        if (!filePath.endsWith(".enk")) {
+        if (!filePath.endsWith(".w")) {
             return ARGUMENT_ERRORS.BAD_FILE_EXTENSION;
         }
         return ARGUMENT_ERRORS.NONE;
