@@ -5,123 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WlangExamples/AllPrimitiveTypes.w" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/AllPrimitiveTypes.w" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/src/main/antlr4/com.kubadziworski.antlr/Enkel.g4" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/src/main/antlr4/com.woody.antlr/Wlang.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelBaseVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelLexer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$AddContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ArgumentContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ArgumentListContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$AssignmentContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$BlockContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ClassBodyContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ClassDeclarationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ClassNameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ClassTypeContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$CompilationUnitContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ConditionalExpressionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ConstructorCallContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$DivideContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ExpressionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$FieldContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ForConditionsContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ForStatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$FunctionCallContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$FunctionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$FunctionDeclarationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$FunctionNameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$IfStatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$MultiplyContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$NameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$NamedArgumentContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$NamedArgumentsListContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ParameterContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ParameterWithDefaultValueContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ParametersListContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$PrimitiveTypeContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$PrintStatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$QualifiedNameContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ReturnStatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ReturnVoidContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ReturnWithValueContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$StatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$SubstractContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$SupercallContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$TypeContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$UnnamedArgumentsListContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ValueContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$ValueExprContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$VarReferenceContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$VariableDeclarationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser$VariableReferenceContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/classes/com/woody/antlr/EnkelVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/EnkelBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/EnkelLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/EnkelParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/EnkelVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/BytecodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/BytecodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/ClassGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/ClassGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/FieldGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/FieldGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/MethodGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/MethodGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/expression/ExpressionGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/expression/ExpressionGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/statement/StatementGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/bytecodegeneration/statement/StatementGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/exception/BadArgumentsSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/exception/BadArgumentsSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/EnkelTreeWalkErrorListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/WlangTreeWalkErrorListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/ClassVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/ClassVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/CompilationUnitVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/CompilationUnitVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/FieldVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/FieldVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/FunctionSignatureVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/FunctionSignatureVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/FunctionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/FunctionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ArithmeticExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ArithmeticExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ConditionalExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ConditionalExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ValueExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/ValueExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/VariableReferenceExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/VariableReferenceExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ArgumentExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ArgumentExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ArgumentExpressionsListVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ArgumentExpressionsListVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/CallExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/CallExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ParameterExpressionListVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ParameterExpressionListVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ParameterExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/expression/function/ParameterExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/AssignmentStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/AssignmentStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/BlockStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/BlockStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/ForStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/ForStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/IfStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/IfStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/PrintStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/PrintStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/ReturnStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/ReturnStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/StatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/StatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/VariableDeclarationStatementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/visitor/statement/VariableDeclarationStatementVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/util/TypeResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/util/TypeResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/exception/BadArgumentsSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/exception/BadArgumentsSize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/EnkelTreeWalkErrorListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/ClassVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/ClassVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/CompilationUnitVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/CompilationUnitVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/FieldVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/FieldVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/FunctionSignatureVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/FunctionSignatureVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/FunctionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/FunctionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ArithmeticExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ArithmeticExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ConditionalExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ConditionalExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ValueExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/ValueExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/VariableReferenceExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/VariableReferenceExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ArgumentExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ArgumentExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ArgumentExpressionsListVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ArgumentExpressionsListVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/CallExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/CallExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ParameterExpressionListVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ParameterExpressionListVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ParameterExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/expression/function/ParameterExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/AssignmentStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/AssignmentStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/BlockStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/BlockStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/ForStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/ForStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/IfStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/IfStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/PrintStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/PrintStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/ReturnStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/ReturnStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/StatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/StatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/VariableDeclarationStatementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/visitor/statement/VariableDeclarationStatementVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/util/TypeResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/util/TypeResolver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,20 +19,38 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2g6rwowdy8K8pu6OTKPxVg42SWm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/antlr/src/main/antlr4/com.woody.antlr/Wlang.g4" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.woody.compiler.Compiler" />
       <module name="compiler" />
@@ -162,26 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="the_compiler" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,33 +74,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="the_compiler" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,6 +89,8 @@
       <updated>1715029111053</updated>
       <workItem from="1715029112053" duration="1033000" />
       <workItem from="1715061513176" duration="5697000" />
+      <workItem from="1715760281492" duration="1097000" />
+      <workItem from="1715947878303" duration="615000" />
     </task>
     <servers />
   </component>
