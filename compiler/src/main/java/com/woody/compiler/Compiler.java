@@ -34,9 +34,9 @@ public class Compiler {
             LOGGER.error(errorMessage);
             return;
         }
-        File enkelFile = new File(args[0]);
-        String fileAbsolutePath = enkelFile.getAbsolutePath();
-        LOGGER.info("Trying to parse '{}'.", enkelFile.getAbsolutePath());
+        File WlangFile = new File(args[0]);
+        String fileAbsolutePath = WlangFile.getAbsolutePath();
+        LOGGER.info("Trying to parse '{}'.", WlangFile.getAbsolutePath());
         CompilationUnit compilationUnit = new Parser().getCompilationUnit(fileAbsolutePath);
         LOGGER.info("Finished Parsing. Started compiling to bytecode.");
         saveBytecodeToClassFile(compilationUnit);
