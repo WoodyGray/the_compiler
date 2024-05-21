@@ -5,7 +5,6 @@ import com.woody.bytecodegeneration.BytecodeGenerator;
 import com.woody.parsing.Parser;
 import com.woody.validation.ARGUMENT_ERRORS;
 import org.apache.commons.io.IOUtils;
-import org.objectweb.asm.Opcodes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

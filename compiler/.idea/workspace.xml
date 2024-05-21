@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9e1f3cd-8a8f-4b98-a1af-7ef76abb4b12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Wlang.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WlangLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woody/antlr/WlangBaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woody/antlr/WlangLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woody/antlr/WlangParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/woody/antlr/WlangVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/woody/parsing/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/woody/parsing/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/woody/compiler/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/woody/compiler/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/woody/parsing/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/woody/parsing/Parser.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2gijQ8YLIZTp6VXDoStJMhLf16b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/programs/java/github/the_compiler/compiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9e1f3cd-8a8f-4b98-a1af-7ef76abb4b12" name="Changes" comment="" />
+      <created>1716187273432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716187273432</updated>
+      <workItem from="1716187274443" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

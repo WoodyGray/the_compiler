@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="the_compiler:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/the_compiler_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/Wlang.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/WlangLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangBaseVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangLexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/Enkel.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/Wlang.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/EnkelLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/WlangLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.woody.antlr/WlangBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.woody.antlr/WlangLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.woody.antlr/WlangParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.kubadziworski.antlr/WlangVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr/target/generated-sources/antlr4/com.woody.antlr/WlangVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/compiler/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/compiler/Compiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Описание программы.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Описание программы.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Программа и методика испытаний.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Программа и методика испытаний.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,30 +36,39 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2g6rwowdy8K8pu6OTKPxVg42SWm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/programs/java/github/the_compiler/antlr/src/main/antlr4/com.woody.antlr/Wlang.g4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programs\java\github\the_compiler\compiler\src\main\java" />
+      <recent name="D:\programs\java\github\the_compiler\compiler\src\main\java\com\woody\antlr" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.woody.compiler.Compiler" />
-      <module name="compiler" />
-      <option name="PROGRAM_PARAMETERS" value="D:\study\github\the_compiler\WlangExamples\SumCalculator.w" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.woody.compiler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -62,15 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.woody.compiler.Compiler" />
+      <module name="compiler" />
+      <option name="PROGRAM_PARAMETERS" value="D:\programs\java\github\the_compiler\WlangExamples\SumCalculator.w" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woody.compiler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="the_compiler" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,33 +105,6 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="the_compiler" />
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,6 +123,8 @@
       <workItem from="1715760281492" duration="1097000" />
       <workItem from="1715947878303" duration="615000" />
       <workItem from="1716031316147" duration="1998000" />
+      <workItem from="1716184390502" duration="17458000" />
+      <workItem from="1716292091140" duration="1461000" />
     </task>
     <servers />
   </component>
@@ -139,17 +141,28 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tokenStream" />
+        <watch expression="compilationUnit.classDeclaration.methods" />
+        <watch expression="compilationUnit.classDeclaration.methods" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
