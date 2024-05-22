@@ -13,7 +13,7 @@ SumCalculator {
 
 
     int sum (int x ,int y) {
-        x+y
+        return x+y
     }
 
 }

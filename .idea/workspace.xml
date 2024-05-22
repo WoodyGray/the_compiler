@@ -11,10 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Лист Утверждения.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Лист Утверждения.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Описание программы.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Описание программы.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Программа и методика испытаний.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Программа и методика испытаний.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Руководство программиста.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Руководство программиста.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/SumCalculator.w" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/SumCalculator.w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Обзор языка.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Обзор языка.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +25,39 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2g6rwowdy8K8pu6OTKPxVg42SWm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/programs/java/github/the_compiler/WlangExamples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programs\java\github\the_compiler\WlangExamples" />
       <recent name="D:\programs\java\github\the_compiler\compiler\src\main\java" />
       <recent name="D:\programs\java\github\the_compiler\compiler\src\main\java\com\woody\antlr" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Compiler">
     <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.woody.compiler.Compiler" />
       <module name="compiler" />
-      <option name="PROGRAM_PARAMETERS" value="D:\programs\java\github\the_compiler\WlangExamples\SumCalculator.w" />
+      <option name="PROGRAM_PARAMETERS" value="D:\programs\java\github\the_compiler\WlangExamples\Loop.w" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.woody.compiler.*" />
@@ -57,6 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loop" />
+      <module name="Wlang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Compiler" />
+      <item itemvalue="Application.Loop" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Loop" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +101,7 @@
       <workItem from="1716184390502" duration="17458000" />
       <workItem from="1716292091140" duration="2078000" />
       <workItem from="1716358063347" duration="3762000" />
+      <workItem from="1716412598218" duration="8762000" />
     </task>
     <servers />
   </component>
@@ -90,7 +118,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
