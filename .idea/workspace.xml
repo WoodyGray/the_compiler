@@ -10,20 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/the_compiler_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/Wlang.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/WlangLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/antlr/WlangVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/compiler/Compiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/compiler/Compiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/compiler/Compiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler/target/classes/com/woody/parsing/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Описание программы.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Описание программы.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Программа и методика испытаний.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Программа и методика испытаний.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +111,7 @@
       <workItem from="1715947878303" duration="615000" />
       <workItem from="1716031316147" duration="1998000" />
       <workItem from="1716184390502" duration="17458000" />
-      <workItem from="1716292091140" duration="1461000" />
+      <workItem from="1716292091140" duration="2078000" />
     </task>
     <servers />
   </component>
