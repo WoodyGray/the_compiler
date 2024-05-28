@@ -11,8 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WlangExamples/SumCalculator.w" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/SumCalculator.w" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/Обзор языка.docx" beforeDir="false" afterPath="$PROJECT_DIR$/documents/Обзор языка.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Constructor/DefaultConstructor.w" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/Constructor/DefaultConstructor.w" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,27 +24,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
   <component name="ProjectId" id="2g6rwowdy8K8pu6OTKPxVg42SWm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/programs/java/github/the_compiler/WlangExamples",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programs\java\github\the_compiler\WlangExamples" />
@@ -118,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

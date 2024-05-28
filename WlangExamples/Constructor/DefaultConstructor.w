@@ -1,6 +1,6 @@
 DefaultConstructor {
 
     start() {
-        print "Hey I am 'start' method. I am not static so the default constructor must have been called, even though it is not defined"
+        print "Hey I am 'start' method."
     }
 }
