@@ -11,7 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ac96baf-2e6f-4ef0-a630-3f10b9e2771f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WlangExamples/Constructor/DefaultConstructor.w" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/Constructor/DefaultConstructor.w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WlangExamples/Loop.w" beforeDir="false" afterPath="$PROJECT_DIR$/WlangExamples/Loop.w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/~WRL0421.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +25,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2g6rwowdy8K8pu6OTKPxVg42SWm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programs\java\github\the_compiler\WlangExamples" />
@@ -40,7 +57,7 @@
     <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.woody.compiler.Compiler" />
       <module name="compiler" />
-      <option name="PROGRAM_PARAMETERS" value="D:\programs\java\github\the_compiler\WlangExamples\Loop.w" />
+      <option name="PROGRAM_PARAMETERS" value="D:\programs\java\github\the_compiler\WlangExamples\HelloWorld.w" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.woody.compiler.*" />
@@ -85,6 +102,7 @@
       <workItem from="1716292091140" duration="2078000" />
       <workItem from="1716358063347" duration="3762000" />
       <workItem from="1716412598218" duration="8762000" />
+      <workItem from="1716931455725" duration="7115000" />
     </task>
     <servers />
   </component>
@@ -101,7 +119,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -114,7 +131,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/compiler/src/main/java/com/woody/parsing/Parser.java</url>
           <line>12</line>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -123,6 +140,14 @@
         <watch expression="tokenStream" />
         <watch expression="compilationUnit.classDeclaration.methods" />
         <watch expression="compilationUnit.classDeclaration.methods" />
+        <watch expression="parser" />
+        <watch expression="tokenStream" />
+        <watch expression="tokenStream" />
+        <watch expression="lexer._tokenFactorySourcePair" />
+        <watch expression="lexer._tokenFactorySourcePair" />
+        <watch expression="lexer._tokenFactorySourcePair" />
+        <watch expression="((WlangLexer)((CommonTokenStream)parser._input).tokenSource)._tokenStartLine" custom="com.woody.antlr.WlangLexer,org.antlr.v4.runtime.CommonTokenStream" />
+        <watch expression="lexer" />
       </configuration>
     </watches-manager>
   </component>
